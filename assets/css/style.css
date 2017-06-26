@@ -1,0 +1,36 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8em;
+}
+.logo-icon{
+    height: 170px;
+}
+.nav-top {
+    background-color: #add8e6;
+}
+.wrap-info {
+  margin: 15px 40px;
+}
+.reverse-background .list-group-item{
+    background: transparent;
+    border: none;
+}
+ul > li > i.fa {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #fff;
+
+}
+.row.content{
+    margin-bottom: 20px;
+}
+.text-nav{
+    color: white !important;
+    font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+    .navbar-form{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
