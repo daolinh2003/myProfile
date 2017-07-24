@@ -2,35 +2,51 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.8em;
 }
-.logo-icon{
+body {
+    background: #DAE3E7
+}
+.logo-icon {
     height: 170px;
 }
 .nav-top {
-    background-color: #add8e6;
+    background-color: #f9ddf9;
+    margin-bottom: 40px;
 }
 .wrap-info {
-  margin: 15px 40px;
+  margin: 15px 0px;
 }
-.reverse-background .list-group-item{
+.reverse-background .list-group-item {
     background: transparent;
     border: none;
 }
 ul > li > i.fa {
   margin-right: 15px;
   font-size: 20px;
-  color: #fff;
 
 }
-.row.content{
+.row.content {
     margin-bottom: 20px;
 }
-.text-nav{
+.text-nav {
     color: white !important;
     font-weight: bold;
 }
 @media screen and (max-width: 767px) {
-    .navbar-form{
+    .navbar-form {
         margin-top: 0;
         margin-bottom: 0;
     }
+    .logo-icon {
+        text-align: center;
+    }
+    .right-tab-info {
+        text-align: center;
+    }
+    .nav-top {
+        margin-bottom: 20px;
+    }
+}
+ul.personal-detail {
+    list-style: none;
+    padding-left: 15px;
 }
